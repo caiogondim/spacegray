@@ -445,8 +445,9 @@
     //
     {
         "class": "panel_button_control",
-        "layer0.tint": "#255", // -00
+        "layer0.tint": [116, 115, 105], // 03
         "layer0.opacity": 0.5,
+        "layer0.texture": "User/spacegray/assets/panel-button-control.png",
     },
 
 //
