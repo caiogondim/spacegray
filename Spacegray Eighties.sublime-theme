@@ -160,7 +160,7 @@
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [116, 115, 105] // 03
+        "fg": [100, 100, 100] // comment
     },
     {
         "class": "tab_label",
@@ -476,9 +476,9 @@
     {
         "class": "tree_row",
         // "layer0.texture": "",
-        "layer0.tint": [45, 45, 45], // 01
+        "layer0.tint": [45, 45, 45], // background
         "layer0.opacity": 0,
-        "layer0.inner_margin": [1,1]
+        "layer0.inner_margin": [10,10]
     },
     // Sidebar row selected
     {
@@ -526,7 +526,7 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [116, 115, 105] // 03
+        "color": [100, 100, 100] // comment
     },
     {
         "class": "sidebar_label",
@@ -552,12 +552,12 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [116, 115, 105] // 03
+        "color": [100, 100, 100] // comment
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "color": [211, 208, 200] // 05
+        "color": [232, 230, 223] // 06
     },
     {
         "class": "sidebar_label",
@@ -632,7 +632,7 @@
         "class": "disclosure_button_control",
         "content_margin": [8,8],
         "layer0.texture": "User/spacegray/assets/fold-right.png",
-        "layer0.tint": [81, 81, 81], // 02
+        "layer0.tint": [181, 181, 181], // foreground
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
     },
@@ -667,7 +667,7 @@
         "class": "icon_folder",
         "layer0.texture": "User/spacegray/assets/folder-closed.png",
         "layer0.opacity": 0.5,
-        "layer0.tint": [167, 173, 186],  // 04
+        "layer0.tint": [181, 181, 181], // foreground
         "content_margin": [8, 8]
     },
     {
@@ -721,7 +721,7 @@
       "class": "icon_folder_dup",
       "layer0.texture": "User/spacegray/assets/folder-dup.png",
       "layer0.opacity": 0.5,
-      "layer0.tint": [167, 173, 186],  // 04
+      "layer0.tint": [181, 181, 181], // foreground
       "content_margin": [8, 8]
     },
     {
