@@ -106,7 +106,7 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "layer0.texture": "User/spacegray/assets/circle.png",
-        "layer0.tint": [254, 204, 102], // 0A
+        "layer0.tint": [212, 165, 68], // yellow
         "layer0.opacity": 1
     },
     {
@@ -489,7 +489,7 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [81, 81, 81], // 02
+        "color": [100, 100, 100], // 02
         "font.bold": true
     },
     {
@@ -632,14 +632,14 @@
         "class": "disclosure_button_control",
         "content_margin": [8,8],
         "layer0.texture": "User/spacegray/assets/fold-right.png",
-        "layer0.tint": [181, 181, 181], // foreground
+        "layer0.tint": [100, 100, 100], // comment
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.tint": [160, 159, 147] // 04
+        "layer0.tint": [100, 100, 100], // comment
     },
     {
         "class": "disclosure_button_control",
@@ -666,9 +666,8 @@
     {
         "class": "icon_folder",
         "layer0.texture": "User/spacegray/assets/folder-closed.png",
-        "layer0.opacity": 0.5,
-        "layer0.tint": [181, 181, 181], // foreground
-        "content_margin": [8, 8]
+        "content_margin": [8, 8],
+        "layer0.tint": [100, 100, 100], // comment
     },
     {
         "class": "icon_folder",
@@ -683,7 +682,8 @@
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-        "layer0.texture": "User/spacegray/assets/folder-open.png"
+        "layer0.texture": "User/spacegray/assets/folder-open.png",
+        "layer0.tint": [100, 100, 100], // comment
     },
     {
         "class": "icon_folder",
@@ -720,8 +720,8 @@
     {
       "class": "icon_folder_dup",
       "layer0.texture": "User/spacegray/assets/folder-dup.png",
-      "layer0.opacity": 0.5,
-      "layer0.tint": [181, 181, 181], // foreground
+      "layer0.tint": [100, 100, 100], // comment
+      "layer0.opacity": 1,
       "content_margin": [8, 8]
     },
     {
@@ -734,13 +734,14 @@
     {
         "class": "icon_file_type",
         // layer0.texture is filled in by code with the relevant icon name
-        "layer0.opacity": 0.6,
-        "content_margin": [8, 8]
+        "content_margin": [8, 8],
+        "layer0.tint": [100, 100, 100] // comment
     },
     {
         "class": "icon_file_type",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1.0,
+        "layer0.tint": [232, 230, 223] // 06
     },
     {
         "class": "icon_file_type",
