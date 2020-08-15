@@ -4,7 +4,7 @@
 //
     {
         "class": "title_bar",
-        "fg": [116, 115, 105],
+        "fg": [100, 100, 100], // comment
         "bg": [30, 30, 30]
     },
 //
@@ -672,7 +672,8 @@
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1.0,
+        "layer0.tint": [232, 230, 223] // 06
     },
     {
         "class": "icon_folder",
@@ -687,7 +688,9 @@
     },
     {
         "class": "icon_folder",
-        "parents": [{"class": "tree_row","attributes": ["expanded", "hover"]}]
+        "parents": [{"class": "tree_row","attributes": ["expanded", "hover"]}],
+        "layer0.opacity": 1.0,
+        "layer0.tint": [232, 230, 223] // 06
     },
     {
         "class": "icon_folder",
@@ -746,7 +749,8 @@
     {
         "class": "icon_file_type",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1.0,
+        "layer0.tint": [232, 230, 223] // 06
     },
     //spacegray_fileicons setting
     {
