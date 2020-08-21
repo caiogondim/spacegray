@@ -440,14 +440,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [81, 81, 81] // 02
-    },
-    //
-    {
-        "class": "panel_button_control",
-        "layer0.tint": [116, 115, 105], // 03
-        "layer0.opacity": 0.5,
-        "layer0.texture": "User/spacegray/assets/panel-button-control.png",
+        "color": [100, 100, 100]
     },
 
 //
@@ -998,6 +991,10 @@
         "class": "icon_button_control",
         "attributes": ["left","right","selected"]
         // "layer0.texture": ""
+    },
+    {
+        "class": "sidebar_button_control",
+        "layer0.tint": [100, 100, 100]
     },
 
 //
